@@ -8,7 +8,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
 #define MAXT 256	//rgb范围从0~255
-
+//11111
 using namespace cv;
 using namespace std;
 
