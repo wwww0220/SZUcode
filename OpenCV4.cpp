@@ -12,7 +12,7 @@
 using namespace cv;
 using namespace std;
 
-
+//1232456
 // 大津法
 double dajinfa(Mat img, double t)
 {
@@ -31,7 +31,7 @@ double dajinfa(Mat img, double t)
 	double sumofpixel = crow * ccol;	//像素总个数
 	double flagsum = 0, flagofP = 0, flagofU = 0, flagofU1 = 0;	//用于概率和均值的累加操作
 	double tflag = 0, qflag = 0;	//比较最优阈值的中间数
-	double qw = 0, qb = 0; //记录类内和类间方差
+12	double qw = 0, qb = 0; //记录类内和类间方差
 
 	//统计直方图
 	for (i = 0; i < crow; i++)
